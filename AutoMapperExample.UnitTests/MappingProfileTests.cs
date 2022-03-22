@@ -6,7 +6,7 @@ namespace AutoMapperExample.UnitTests;
 public class MappingProfileTests
 {
     [Fact]
-    public void ShouldMapperIsValidWhenInitalized()
+    public void ValidateMappingConfigurationTest()
     {
         MapperConfiguration mapperConfig = new MapperConfiguration(
            cfg =>
