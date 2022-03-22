@@ -8,6 +8,5 @@ public class WeatherForecastViewModel
 
     public int TemperatureF { get; set; }
 
-    // left out so that you can see it used the ViewModel
-    public string? SummaryText { get; set; }
+    public string? Summary { get; set; }
 }
