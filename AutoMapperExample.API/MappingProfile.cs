@@ -6,6 +6,8 @@ public class MappingProfile : Profile
 {
     public MappingProfile()
     {
-        CreateMap<WeatherForecast, WeatherForecastViewModel>().ReverseMap();
+        CreateMap<WeatherForecast, WeatherForecastViewModel>()
+            .ForMember(dest => dest.SummaryText, input => input.MapFrom(i => i.Summary))
+            .ReverseMap();
     }
 }

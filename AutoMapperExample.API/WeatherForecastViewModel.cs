@@ -8,5 +8,5 @@ public class WeatherForecastViewModel
 
     public int TemperatureF { get; set; }
 
-    public string? Summary { get; set; }
+    public string? SummaryText { get; set; }
 }
